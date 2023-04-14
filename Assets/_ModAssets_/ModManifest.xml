@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="8476d481-f12e-4a3d-8c4c-1752de11df47">
+  <Mod name="AI Plane Replacer" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2023-04-14T04:31:40.0073073Z" apiVersion="1.0.0.0" description="Tool that automates the replacement of aircraft files on launch.">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="PlaneReplacer Persistent Object" path="Assets/_ModAssets_/PlaneReplacer Persistent Object.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/readme.txt" />
+    </Assets>
+    <MaterialShaderMap />
+    <Assemblies>
+      <Assembly name="AIPlaneReplacer-Assembly-CSharp.dll" path="Assets/_ModAssets_/AIPlaneReplacer-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="PlaneReplacer Persistent Object" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
